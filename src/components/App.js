@@ -1,9 +1,16 @@
 import React from 'react';
 
-export default function App() {
-  return (
-    <div className="App">
-      <header className="App-header">Application works!!!</header>
-    </div>
-  );
-}
+import Header from './header';
+import ProfileInfo from './profile-info';
+import Content from './content';
+
+import GlobalStyle from '../styles/global';
+
+export default () => (
+  <>
+    <Header />
+    <ProfileInfo />
+    <Content />
+    <GlobalStyle />
+  </>
+);
