@@ -17,4 +17,10 @@ export const Container = styled.div`
     border: 1px solid rgba(27, 31, 35, 0.2);
     font-weight: 800;
   }
+
+  @media (max-width: 680px) {
+    button {
+      display: none;
+    }
+  }
 `;

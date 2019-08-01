@@ -1,3 +1,13 @@
 import React from 'react';
 
-export default () => <div>content</div>;
+import { Container } from './styles';
+
+import NavigationMenu from './navigation-menu';
+import PinnedItemsList from './pinned-items-list';
+
+export default () => (
+  <Container>
+    <NavigationMenu />
+    <PinnedItemsList />
+  </Container>
+);

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from './style';
+import { Container } from './styles';
 
 import ProfileImageContainer from './profile-image-container';
 

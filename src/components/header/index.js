@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from './style';
+import { Container } from './styles';
 
 import Logo from './logo';
 import SearchInput from './search-input';

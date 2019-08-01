@@ -5,12 +5,21 @@ export const Container = styled.div`
   border: 1px solid #e1e4e8;
   border-radius: 3px;
   flex-direction: column;
+  overflow-x: hidden;
 
   #profile-image {
     width: 278px;
     height: 278px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+  }
+
+  @media (max-width: 770px) {
+    width: 128px;
+    #profile-image {
+      width: 128px;
+      height: 128px;
+    }
   }
 
   #description {
