@@ -13,4 +13,8 @@ export const Container = styled.div`
   ul li {
     margin-left: 16px;
   }
+
+  @media (max-width: 860px) {
+    display: none;
+  }
 `;

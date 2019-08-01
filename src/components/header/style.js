@@ -7,4 +7,8 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   padding: 0px 20px;
+
+  @media (max-width: 860px) {
+    justify-content: center;
+  }
 `;

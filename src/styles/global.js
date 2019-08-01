@@ -17,4 +17,8 @@ export default createGlobalStyle`
     color: #24292e;
   }
 
+  #page-content {
+    display: flex;
+    flex-direction: row;
+  }
 `;

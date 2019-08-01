@@ -9,8 +9,10 @@ import GlobalStyle from '../styles/global';
 export default () => (
   <>
     <Header />
-    <ProfileInfo />
-    <Content />
+    <div id="page-content">
+      <ProfileInfo />
+      <Content />
+    </div>
     <GlobalStyle />
   </>
 );

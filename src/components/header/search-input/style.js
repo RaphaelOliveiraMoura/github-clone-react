@@ -12,4 +12,8 @@ export const Container = styled.div`
     background-color: #42464a;
     color: #87898c;
   }
+
+  @media (max-width: 860px) {
+    display: none;
+  }
 `;

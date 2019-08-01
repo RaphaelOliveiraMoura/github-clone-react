@@ -9,4 +9,8 @@ export const Container = styled.div`
     margin-right: 16px;
     fill: #fff;
   }
+
+  @media (max-width: 860px) {
+    display: none;
+  }
 `;
